@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+
+header {
+    margin-bottom: 150px; /* Navbar'ýn altýna boþluk ekle */
+}
+.slider-container {
+    position: relative;
+    max-width: 100%; /* Maksimum geniþlik ayarý */
+    overflow: hidden; /* Taþmayý önlemek için */
+}
+
+.carousel-inner {
+    width: 100%; /* Ýçeriðin tam geniþlikte olmasýný saðlar */
+}
+
+.slider-image {
+    width: 100%; /* Resimlerin geniþliði %100 */
+    height: auto; /* Yükseklik otomatik ayarlanýr */
+    max-height: 300px; /* Maksimum yükseklik ayarý */
+    object-fit: contain; /* Resimlerin alaný kapsamasýný saðlar */
+    margin: 0 auto; /* Ortalayýcý ayar */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute; /* Mutlak konumlandýrma */
+    top: 50%; /* Dikey ortalama */
+    transform: translateY(-50%); /* Dikey ortalama ayarý */
+    width: 5%; /* Ok butonlarýnýn geniþliði */
+    height: auto; /* Yükseklik otomatik */
+    background-color: transparent; /* Buton arka plan rengi */
+    border: none; /* Buton çerçevesini kaldýr */
+}
+
+.carousel-control-prev {
+    left: 10px; /* Sol ok için konum ayarý */
+}
+
+.carousel-control-next {
+    right: 10px; /* Sað ok için konum ayarý */
+}
+
+
+
+
+
